@@ -17,7 +17,7 @@ import requests
 # 11 effectiveHealAndShielding/min
 
 with open('data.csv', 'w') as file:
-    file.write("champion,role,kills,deaths,assists,damage,mitigatedDamage,objectivesDamage,crowdControl,splitpushScore,compantionScore,goldGeneration,healsAndShields\n")
+    file.write("champion,role,kills,deaths,assists,damage,mitigatedDamage,objectivesDamage,crowdControl,splitpushScore,companionScore,goldGeneration,healsAndShields\n")
 
 
 API_KEY = 'RGAPI-1057a2e8-b295-49c5-8103-1a2dc6215ef0'
